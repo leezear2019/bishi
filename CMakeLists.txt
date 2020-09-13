@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.15)
+project(bishi)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(O033 O033.cpp)
+add_executable(L0077 L0077.cpp)
+add_executable(L0811 L0811.cpp)
+add_executable(L1315 L1315.cpp)
+add_executable(L1305 L1305.cpp)
+add_executable(L0046 L0046.cpp)
+add_executable(L0023 L0023.cpp)

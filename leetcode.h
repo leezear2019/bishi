@@ -17,6 +17,7 @@
 #include <cassert>
 #include <unordered_set>
 
+using namespace std;
 
 //Definition for singly-linked list.
 struct ListNode {
@@ -35,5 +36,12 @@ struct TreeNode {
 
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
+
+//ostream &operator<<(ostream &out, vector<int> V) {
+//    for (auto &v:V) {
+//        cout << v << " ";
+//    }
+//    cout << endl;
+//};
 
 #endif //BISHI_LEETCODE_H

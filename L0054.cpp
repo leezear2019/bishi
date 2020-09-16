@@ -6,6 +6,9 @@
 
 using namespace std;
 
+vector<int> B;
+//void cur(vector<vector<int>>& matrix,bool h,int step)
+
 vector<int> spiralOrder(vector<vector<int>> &matrix) {
     vector<int> A;
     if(!matrix.size()){return A;}
@@ -45,6 +48,7 @@ vector<int> spiralOrder(vector<vector<int>> &matrix) {
     return A;
 
 }
+
 
 int main() {
 //    vector<vector<int>> M = {{1, 2, 3},
